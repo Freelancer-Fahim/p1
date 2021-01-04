@@ -1,0 +1,79 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+.top-banner{
+    background-image: url('image/top-banner.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+.name_helight{
+    color: orange;
+}
+.helf_area{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.helf_area img{
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient( 45deg,orange,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.deam-area{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:  right;
+}
+.single_experinces{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: #fff;
+}
+
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:  left;
+}
+#full_stck{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby_stck{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1; 
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+}
